@@ -6,7 +6,6 @@ public class Todo0116 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-
 		
 		// while문 사용
 		while(true) {
