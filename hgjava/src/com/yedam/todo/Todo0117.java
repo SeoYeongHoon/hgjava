@@ -20,6 +20,22 @@ public class Todo0117 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		String[] names = new String[3];
+		String[] phones = new String[3];
+		
+		for (int i = 0; i < names.length; i++) {
+			System.out.println("이름을 입력하세요.");
+			names[i] = sc.nextLine();
+			System.out.println("전화번호를 입력하세요.");
+			phones[i] = sc.nextLine();
+			
+		}
+		
+		for (int j = 0; j < names.length; j++) {
+			System.out.println("이름: " + names[j]);
+			System.out.println("연락처: " + phones[j]);
+			System.out.println("===================");
+		}
 	}
 
 }
