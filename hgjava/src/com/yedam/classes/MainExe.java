@@ -74,7 +74,7 @@ public class MainExe {
 					stdHeight = Double.parseDouble(sc.nextLine());
 
 					// 매개값으로 쓰기위함
-					Student std = new Student(stdNum, stdName, stdScore, stdHeight);
+					Student std = new Student(stdNum, stdName, stdHeight, stdScore);
 					
 					if (stdApp.add(std)) {
 						System.out.println("======= 입력성공 =======");

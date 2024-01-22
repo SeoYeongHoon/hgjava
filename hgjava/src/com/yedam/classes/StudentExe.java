@@ -2,7 +2,7 @@ package com.yedam.classes;
 
 public class StudentExe {
 	public static void main(String[] args) {
-		Student s1 = new Student("S001", "홍길동", 80, 80.5);	// 생성자
+		Student s1 = new Student("S001", "홍길동", 80.5, 80);	// 생성자
 		System.out.println(s1.num);
 		s1.setHeight(-50);
 		System.out.println(s1.getHeight());

@@ -12,7 +12,7 @@ public class Student {
 	// 생성자: 기본 생성자. new Friend()
 	
 	// 메소드
-	void showInfo () {
+	public void showInfo () {
 		System.out.printf("학생번호는 %s, 이름은 %s, 키는 %scm, 점수는 %d점입니다. \n", num, name, height, score);
 	}
 	
@@ -20,12 +20,12 @@ public class Student {
 		return "번호는 " + num;
 	}
 	
-	public Student(String num, String name, int score, double height) {
+	public Student(String num, String name, double height, int score) {
 		super();
 		this.num = num;
 		this.name = name;
-		this.score = score;
 		this.height = height;
+		this.score = score;
 	}
 	
 	public void setHeight(double height) {
