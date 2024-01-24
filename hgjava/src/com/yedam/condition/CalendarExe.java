@@ -3,41 +3,6 @@ package com.yedam.condition;
 public class CalendarExe {
 
 	public static void main(String[] args) {
-//		for (int i = 1; i < 7; i++) {
-//			
-//			System.out.println("\n\n" + i + "월");
-//			
-//			int month = 3;
-//			
-//			// 달의 1일의 위치
-////			int pos = i;
-//			
-//			// 달의 마지막 날짜의 위치
-//			int lastDate = 31;
-//			
-////			switch(month) {
-////			case 1:
-////				pos = 1; break;
-////			case 2:
-////				pos = 4; break;
-////			case 3:
-////				pos = 5; break;
-////			}
-//			
-//			// 1 ~ 31까지 반복
-//			System.out.println(" Sun Mon Tue Wed Thr Fri Sat");
-//			for (int d = 0; d < i; d++) {
-//				System.out.printf("%4s", "");
-//			}
-//			
-//			for (int j = 1; j <= 31; j++) {
-//				System.out.printf("%4d", j);
-//				if (j % 7 == (7 - i)) {
-//					System.out.println();
-//				}
-//			}
-//			
-//		}
 		for (int mon = 1; mon < 13; mon++) {
 			System.out.println("\n\n" + mon + "월");
 			
