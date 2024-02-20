@@ -46,7 +46,7 @@ public class ClassExe {
 //		Scanner sc = new Scanner(System.in);
 		Scanner sc = new Scanner(new File(path2));
 		System.out.println(sc.nextLine());
-		
+
 		System.out.println("===========================");
 	}
 

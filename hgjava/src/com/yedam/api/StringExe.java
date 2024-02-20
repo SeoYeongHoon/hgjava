@@ -9,12 +9,12 @@ public class StringExe {
 		for (byte b : bytes) {
 			System.out.println(b);
 		}
-		
-		str = new String(new byte[] { 72, 101, 108, 108, 111});
-		
+
+		str = new String(new byte[] { 72, 101, 108, 108, 111 });
+
 		int pos = str.indexOf("a");
 		System.out.println("l은 " + pos + " 위치에 있음");
-		
+
 		char chr = str.charAt(0);
 		System.out.println(chr);
 	}

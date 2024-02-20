@@ -32,9 +32,9 @@ public class Member extends Object {
 		}
 		return false;
 	}
-	
+
 	@Override
 	public String toString() {
-		return name + ": " + age; 
+		return name + ": " + age;
 	}
 }
